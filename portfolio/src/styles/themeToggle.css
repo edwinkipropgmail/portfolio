@@ -1,0 +1,21 @@
+.theme-toggle {
+    position: fixed;
+    right: 45%;
+    top: 1px;
+   align-items: center;
+   display: flex;
+    background-color: rgb(84, 84, 92);
+    color: inherit;
+    border: 2px solid currentColor;
+    padding: 1% 1%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-toggle:hover {
+    background-color: rgba(188, 180, 180, 0.863);
+  }
+  

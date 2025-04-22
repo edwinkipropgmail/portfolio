@@ -1,0 +1,63 @@
+.contact {
+    padding: 80px 20px;
+    background-color: #f8fafc;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .contact-form button {
+    background-color: #0ea5e9;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0284c7;
+  }
+  .hire-btn {
+    background-color: #dde4e3;
+    color: #302f2f;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgb(0, 38, 252);
+  }
+  .button {
+    margin-top: 35px;
+  }
+  .hire-btn:hover {
+    background-color: #c4c9c8;
+    color: #045c72;
+    box-shadow: 0 6px 6px rgb(13, 5, 85);
+  }

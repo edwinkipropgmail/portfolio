@@ -1,0 +1,14 @@
+body.light {
+    background-color: #ffffff;
+    color: #1f2937;
+  }
+  
+  body.dark {
+    background-color: #363737;
+    color: #c7c6c6;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
