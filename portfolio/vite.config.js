@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: process.env.ENV_BASE_PATH === 'production' ? '/portfolio/' : '/',
+  optimizeDeps: {
+    include: ['@emailjs/browser'], // Force optimize this package
+    force: true,  
+  }
 })
